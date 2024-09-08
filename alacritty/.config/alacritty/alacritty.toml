@@ -1,0 +1,39 @@
+import = [
+    # Windows
+    # "%APPDATA%\\alacritty\\catppuccin-mocha.toml"
+
+    # Linux
+    "~/.config/alacritty/catppuccin-mocha.toml",
+]
+
+[window]
+decorations = "None"
+blur = true
+startup_mode = "Maximized"
+
+[env]
+TERM = "xterm-256color"
+
+[scrolling]
+history = 100000
+multiplier = 2
+
+[font]
+normal.family = "Hack Nerd Font"
+bold.family = "Hack Nerd Font"
+italic.family = "Hack Nerd Font"
+bold_italic.family = "Hack Nerd Font"
+size = 14
+
+[cursor]
+style.shape = "Beam"
+style.blinking = "On"
+
+[shell]
+program = "zsh"
+
+#use on wsl
+# program = "ubuntu"
+
+[keyboard]
+bindings = [{ key = "Slash", mods = "Control", chars = "\u001f" }]
