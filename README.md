@@ -1,4 +1,13 @@
 # Requirements
+## Symbolic Link
+  ### Install Stow
+  - Ubuntu
+    `sudo apt install stow`
+  - Arch
+    `sudo pacman -S stow`
+```
+  stow .
+```
 
 ## ZSH
 ### Install ZSH
@@ -29,6 +38,7 @@
   `git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete`<br/><br/>
 
 ### Enable plugins by adding them to .zshrc
+#### If you use the `stow .` you don't need to do this
 - Open .zshrc
   `nvim ~/.zshrc`
 - Find the line which says `plugins=(git)`.
@@ -103,11 +113,3 @@
 
 <hr/>
 
-## Symbolic Link
-```
-  ln -s ~/.dotfiles/.zshrc ~/.zshrc 
-  ln -s ~/.dotfiles/nvim ~/.config/nvim 
-  ln -s ~/.dotfiles/tmux ~/.config/tmux 
-  ln -s ~/.dotfiles/.wezterm.lua ~/.wezterm.lua 
-  ln -s ~/.dotfiles/composer ~/.config/composer/
-```
