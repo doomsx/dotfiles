@@ -37,12 +37,8 @@
   - autocomplete<br/>
   `git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git ~/.zsh/zsh-autocomplete/`<br/><br/>
 
-### Enable plugins by adding them to .zshrc
-#### If you use the `stow .` you don't need to do this
-- Open .zshrc
-  `nvim ~/.zshrc`
-- Find the line which says `plugins=(git)`.
-- Replace that line with `plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)`
+### Source the .zshrc
+  `source ~/.zshrc`
 
 <hr/>
 
