@@ -19,9 +19,9 @@
   ```
     sudo pacman -S zsh
   ```
-### Install Oh My ZSH
+### Install Starship
   ```
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    sudo apt install starship
   ```
 ### Install autosuggestion and syntax highlighting
   ```
@@ -29,13 +29,13 @@
   ```
 ### Install Plugins
  - autosuggestions<br/>
-  `git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions`<br/><br/>
+  `git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh/zsh-autosuggestions/`<br/><br/>
   - systax highlighting<br/>
-  `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting`<br/><br/>
+  `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting/`<br/><br/>
   - fast syntax highlighting<br/>
-  `git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting`<br/><br/>
+  `git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ~/.zsh/zsh-fast-syntax-highlighting/`<br/><br/>
   - autocomplete<br/>
-  `git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete`<br/><br/>
+  `git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git ~/.zsh/zsh-autocomplete/`<br/><br/>
 
 ### Enable plugins by adding them to .zshrc
 #### If you use the `stow .` you don't need to do this
