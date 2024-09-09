@@ -1,0 +1,34 @@
+format = """
+$directory\
+$git_branch\
+$git_status\
+$lua\
+$python\
+$nodejs\
+$php\
+$docker_context\
+$cmd_duration\
+$line_break\
+$character"""
+
+[fill]
+symbol = "-"
+
+[nodejs]
+format = '\[[$symbol($version)]($style)\]'
+
+
+[php]
+format = '\[[$symbol($version)]($style)\]'
+
+[python]
+format = '\[[${symbol}${pyenv_prefix}(${version})(\($virtualenv\))]($style)\]'
+
+[lua]
+format = '\[[$symbol($version)]($style)\]'
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style))'
+
+[docker_context]
+format = '\[[$symbol$context]($style)\]'
