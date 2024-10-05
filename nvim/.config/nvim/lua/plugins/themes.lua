@@ -8,10 +8,15 @@ return {
         },
     },
     {
+        "catppuccin/nvim",
+        name = "catppuccin",
+    },
+    {
         "LazyVim/LazyVim",
         opts = {
             colorscheme = function()
                 require("onedark").load()
+                require("catppuccin").load()
             end,
         },
     },
