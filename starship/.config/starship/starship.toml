@@ -17,7 +17,6 @@ symbol = "-"
 [nodejs]
 format = '\[[$symbol($version)]($style)\]'
 
-
 [php]
 format = '\[[$symbol($version)]($style)\]'
 
