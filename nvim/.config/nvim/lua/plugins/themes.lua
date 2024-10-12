@@ -16,7 +16,7 @@ return {
         opts = {
             colorscheme = function()
                 require("onedark").load()
-                require("catppuccin").load()
+                -- require("catppuccin").load()
             end,
         },
     },
