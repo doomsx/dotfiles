@@ -16,6 +16,8 @@ alias dotfiles="cd ~/.dotfiles/"
 alias gb="git branch"
 alias gp="git pull"
 alias gP="git push"
+alias gc="git commit"
+alias ga="git add"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
