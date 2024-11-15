@@ -1,15 +1,12 @@
 import = [
-    # Windows
-    # "%APPDATA%\\alacritty\\catppuccin-mocha.toml"
-
-    # Linux
     "~/.config/alacritty/catppuccin-mocha.toml",
 ]
 
 [window]
 decorations = "None"
 blur = true
-startup_mode = "Maximized"
+startup_mode = "Fullscreen"
+opacity = 0.9
 
 [env]
 TERM = "xterm-256color"
