@@ -36,6 +36,9 @@ exec --no-startup-id dex --autostart --environment i3
 
 # lock my screen manually
 bindsym F12 exec --no-startup-id betterlockscreen -l
+exec --no-startup-id xset s off
+exec --no-startup-id xset -dpms
+exec --no-startup-id xset s noblank
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -58,6 +61,10 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec alacritty
 
+# start copyQ
+exec --no-startup-id copyq
+bindsym $mod+c exec --no-startup-id copyq show
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
@@ -68,6 +75,9 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
+
+# Print screen
+bindsym Print exec --no-startup-id maim ~/Pictures/screenshot_$(date +%Y-%m-%d_%H-%M-%S).png
 
 # change focus
 bindsym $mod+h focus left
@@ -171,10 +181,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt

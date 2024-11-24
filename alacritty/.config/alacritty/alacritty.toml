@@ -5,7 +5,7 @@ import = [
 [window]
 decorations = "None"
 blur = true
-startup_mode = "Fullscreen"
+startup_mode = "Maximized"
 opacity = 0.9
 
 [env]
