@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -17,7 +17,7 @@ font pango:Hack Nerd Font 10
 exec --no-startup-id picom
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
-exec_always feh --bg-scale ~/backgrounds/bg3.jpg
+exec_always feh --bg-scale ~/backgrounds/bg2.jpg
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -60,6 +60,7 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Return exec alacritty
+bindsym F11 exec zen-browser
 
 # start copyQ
 exec --no-startup-id copyq
