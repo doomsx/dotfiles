@@ -59,8 +59,9 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec alacritty
-bindsym F11 exec zen-browser
+bindsym $mod+Return workspace 1; exec --no-startup-id alacritty
+bindsym F11 workspace 2; exec --no-startup-id zen-browser
+bindsym F10 workspace 3; exec --no-startup-id rider
 
 # start copyQ
 exec --no-startup-id copyq
