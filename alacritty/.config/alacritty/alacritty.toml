@@ -19,7 +19,7 @@ normal.family = "Hack Nerd Font"
 bold.family = "Hack Nerd Font"
 italic.family = "Hack Nerd Font"
 bold_italic.family = "Hack Nerd Font"
-size = 14
+size = 12
 
 [cursor]
 style.shape = "Beam"
