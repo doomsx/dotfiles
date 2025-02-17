@@ -6,6 +6,14 @@ return {
   opts = function()
     local dashboard = require("alpha.themes.dashboard")
     local logo = [[
+
+
+
+
+
+
+
+
              ████ ██████           █████      ██                     
             ███████████             █████                             
             █████████ ███████████████████ ███   ███████████   
