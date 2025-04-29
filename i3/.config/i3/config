@@ -60,9 +60,10 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Return workspace 1; exec --no-startup-id alacritty
-bindsym F11 workspace 2; exec --no-startup-id firefox
-bindsym F10 workspace 3; exec --no-startup-id discord
-bindsym F9 workspace 4; exec --no-startup-id spotify
+bindsym F11 workspace 2; exec --no-startup-id chromium
+bindsym F10 workspace 3; exec --no-startup-id firefox
+bindsym F9 workspace 4; exec --no-startup-id discord
+bindsym F8 workspace 5; exec --no-startup-id spotify
 
 # start copyQ
 exec --no-startup-id copyq
