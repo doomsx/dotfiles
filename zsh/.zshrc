@@ -21,6 +21,7 @@ alias ga="git add"
 alias spotx="bash <(curl -sSL https://spotx-official.github.io/run.sh) -phf"
 alias suspend="sudo systemctl suspend"
 alias shutdown="sudo shutdown -h now"
+alias ls="exa"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
