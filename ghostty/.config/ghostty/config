@@ -1,0 +1,11 @@
+font-family = "JetBrainsMono Nerd Font"
+font-size=10
+
+theme="tokyonight_night"
+
+background-blur=true
+background-opacity=0.9
+
+shell-integration=zsh
+
+keybind = shift+ctrl+r=reload_config
