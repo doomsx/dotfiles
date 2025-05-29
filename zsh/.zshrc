@@ -34,3 +34,6 @@ export NVM_DIR="$HOME/.nvm"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 eval "$(zoxide init zsh)"
+
+# add the ssh agent
+eval `keychain --quiet --eval id_ed25519`
