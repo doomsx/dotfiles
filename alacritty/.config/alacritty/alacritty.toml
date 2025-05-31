@@ -3,6 +3,7 @@
 decorations = "None"
 blur = true
 startup_mode = "Maximized"
+opacity = 0.9
 
 [env]
 TERM = "xterm-256color"
@@ -12,11 +13,11 @@ history = 100000
 multiplier = 2
 
 [font]
-normal.family = "Hack Nerd Font"
-bold.family = "Hack Nerd Font"
-italic.family = "Hack Nerd Font"
-bold_italic.family = "Hack Nerd Font"
-size = 12
+normal.family = "JetBrainsMono Nerd Font"
+bold.family = "JetBrainsMono Nerd Font"
+italic.family = "JetBrainsMono Nerd Font"
+bold_italic.family = "JetBrainsMono Nerd Font"
+size = 10
 
 [cursor]
 style.shape = "Beam"
@@ -24,9 +25,6 @@ style.blinking = "On"
 
 [terminal.shell]
 program = "zsh"
-
-#use on wsl
-# program = "ubuntu"
 
 [keyboard]
 bindings = [{ key = "Slash", mods = "Control", chars = "\u001f" }]
