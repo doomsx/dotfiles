@@ -37,3 +37,5 @@ eval "$(zoxide init zsh)"
 
 # add the ssh agent
 eval `keychain --quiet --eval id_ed25519`
+
+fastfetch
