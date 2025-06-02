@@ -25,10 +25,16 @@
   padding: 0.4rem;
 }
 
+#workspaces button.empty{
+    color: #ababab;
+    border-radius: 5px
+}
+
 #workspaces button.active {
   color: #99d1db;
   border-radius: 5px;
 }
+
 
 #workspaces button:hover {
   color: #85c1dc;
