@@ -52,7 +52,8 @@
 #memory,
 #disk,
 #custom-lock,
-#custom-power {
+#custom-power,
+#custom-updates{
   background-color: #1a1a1a;
   padding: 0.5rem 1rem;
   margin: 2px 0;
@@ -97,7 +98,6 @@
 #pulseaudio {
   color: #ea999c;
   border-radius: 5px 0px 0px 5%;
-  margin-left: 1rem;
 }
 
 #custom-music {
@@ -121,4 +121,3 @@
   margin-left: 1rem;
   border-radius: 5px;
 }
-
