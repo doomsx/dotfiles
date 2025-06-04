@@ -6,7 +6,7 @@
     "modules-right": ["custom/updates", "pulseaudio", "battery", "network", "cpu", "memory", "disk", "tray", "custom/lock" ],
 
     "hyprland/workspaces": {
-    "format": "{icon}",
+    "format": "{name}:{icon}",
     "format-icons": {
         "active": "",
         "default": "",
