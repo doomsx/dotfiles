@@ -5,7 +5,9 @@ return {
       ensure_installed = {
         "bash",
         "c_sharp",
+        "go",
         "html",
+        "java",
         "javascript",
         "json",
         "lua",
