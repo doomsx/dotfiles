@@ -35,4 +35,16 @@ eval "$(zoxide init zsh)"
 # add the ssh agent
 eval `keychain --quiet --eval id_ed25519`
 
+# java run
+alias jr="javac_run"
+javac_run() {
+  if [ -z "$1" ]; then
+    echo "Usage: jr <filename.java>"
+    return 1
+  fi
+  file="$1"
+  class="${file%.java}"
+  javac "$file" && java "$class"
+}
+
 fastfetch
