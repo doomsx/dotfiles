@@ -2,8 +2,6 @@
   font-family: JetbrainsMono Nerd Font;
   font-size: 12px;
   min-height: 0;
-  padding-right: 2px;
-  padding-left: 2px;
   padding-bottom: 0px;
 }
 
@@ -14,31 +12,25 @@
 }
 
 #workspaces {
-  border-radius: 5px;
   margin: 5px;
   background: #101010;
 }
 
 #workspaces button {
   color: #babbf1;
-  border-radius: 5px;
-  padding: 0.4rem;
 }
 
 #workspaces button.empty{
     color: #ababab;
-    border-radius: 5px
 }
 
 #workspaces button.active {
   color: #99d1db;
-  border-radius: 5px;
 }
 
 
 #workspaces button:hover {
   color: #85c1dc;
-  border-radius: 5px;
 }
 
 #custom-music,
