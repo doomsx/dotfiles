@@ -3,7 +3,7 @@
     "position": "top",
     "modules-left": [ "hyprland/workspaces" ],
     "modules-center": ["clock"],
-    "modules-right": ["custom/updates", "pulseaudio", "battery", "network", "cpu", "memory", "disk", "tray", "custom/lock" ],
+    "modules-right": ["custom/updates", "pulseaudio", "battery", "network", "cpu", "memory", "disk", "tray",  ],
 
     "hyprland/workspaces": {
     "format": "{icon}",
