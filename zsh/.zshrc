@@ -36,7 +36,9 @@ alias gc="git commit"
 alias ga="git add"
 alias suspend="sudo systemctl suspend"
 alias shutdown="sudo shutdown -h now"
+alias minecraft="java -jar ~/Downloads/SKlauncher-3.2.12.jar"
 alias ls="exa"
+alias c="clear"
 
 # add the ssh agent
 eval `keychain --quiet --eval id_ed25519`
