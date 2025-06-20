@@ -1,4 +1,4 @@
-
+vim.g.lazygit_floating_window_use_plenary = 1
 vim.wo.number = true
 vim.o.relativenumber = true
 
@@ -31,26 +31,26 @@ vim.o.showmode = false
 
 vim.opt.termguicolors = true
 
-vim.o.whichwrap = 'bs<>[]hl'
+vim.o.whichwrap = "bs<>[]hl"
 
 vim.o.numberwidth = 4
 
-vim.o.swapfile = false 
+vim.o.swapfile = false
 
 vim.o.smartindent = true
-vim.o.backspace = 'indent,eol,start'
+vim.o.backspace = "indent,eol,start"
 vim.o.pumheight = 10
 vim.o.conceallevel = 0
-vim.wo.signcolumn = 'yes'
-vim.o.fileencoding = 'utf-8'
+vim.wo.signcolumn = "yes"
+vim.o.fileencoding = "utf-8"
 vim.o.cmdheight = 1
 vim.o.breakindent = true
 vim.o.updatetime = 250
 vim.o.timeoutlen = 300
 vim.o.writebackup = false
 vim.o.undofile = true
-vim.o.completeopt = 'menuone,noselect'
-vim.opt.shortmess:append 'c'
-vim.opt.iskeyword:append '-'
-vim.opt.formatoptions:remove {'c', 'r', 'o'}
-vim.opt.runtimepath:remove 'usr/share/vim/vimfiles'
+vim.o.completeopt = "menuone,noselect"
+vim.opt.shortmess:append("c")
+vim.opt.iskeyword:append("-")
+vim.opt.formatoptions:remove({ "c", "r", "o" })
+vim.opt.runtimepath:remove("usr/share/vim/vimfiles")
