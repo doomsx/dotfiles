@@ -30,4 +30,5 @@ require("lazy").setup({
 	require("plugins.harpoon"),
 	require("plugins.undotree"),
 	require("plugins.trouble"),
+	require("plugins.nvim-surround"),
 })
