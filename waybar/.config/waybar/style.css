@@ -1,6 +1,6 @@
 * {
   font-family: JetbrainsMono Nerd Font;
-  font-size: 12px;
+  font-size: 10px;
   min-height: 0;
   padding-bottom: 0px;
 }
@@ -12,8 +12,8 @@
 }
 
 #workspaces {
-  margin: 5px;
-  background: #101010;
+  margin: 0px;
+  background: transparent;
 }
 
 #workspaces button {
@@ -46,9 +46,9 @@
 #custom-lock,
 #custom-power,
 #custom-updates{
-  background-color: #1a1a1a;
+  background-color: transparent;
   padding: 0.5rem 1rem;
-  margin: 2px 0;
+  margin: 0px 0;
   border-radius: 0px 5px 5px 0px;
 }
 
