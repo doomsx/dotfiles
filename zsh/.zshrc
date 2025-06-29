@@ -39,6 +39,8 @@ alias shutdown="sudo shutdown -h now"
 alias minecraft="java -jar ~/Downloads/SKlauncher-3.2.12.jar"
 alias ls="exa"
 alias c="clear"
+alias update="sudo pacman -Syu --noconfirm"
+alias yupdate="yay -Sua --noconfirm"
 
 # add the ssh agent
 eval `keychain --quiet --eval id_ed25519`
