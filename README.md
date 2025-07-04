@@ -1,44 +1,48 @@
 # Requirements
+
 ## Symbolic Link
-  ### Install Stow
-  - Ubuntu
-    `sudo apt install stow`
-  - Arch
-    `sudo pacman -S stow`
-```
-  stow .
-```
+
+### Install Stow
+
+- Ubuntu
+  `sudo apt install stow`
+- Arch
+  `sudo pacman -S stow`
 
 ## ZSH
+
 ### Install ZSH
-  - For Ubuntu
-  ```
-    sudo apt install zsh
-  ```
-  - For Arch
-  ```
-    sudo pacman -S zsh
-  ```
+
+```
+  sudo pacman -S zsh
+```
+
 ### Install Starship
-  ```
-    sudo apt install starship
-  ```
+
+```
+  sudo apt install starship
+```
+
 ### Install autosuggestion and syntax highlighting
-  ```
-    sudo apt install zsh-autosuggestions zsh-syntax-highlighting
-  ```
+
+```
+  sudo apt install zsh-autosuggestions zsh-syntax-highlighting
+```
+
 ### Install Plugins
- - autosuggestions<br/>
+
+- autosuggestions<br/>
   `git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh/zsh-autosuggestions/`<br/><br/>
-  - systax highlighting<br/>
+- systax highlighting<br/>
   `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting/`<br/><br/>
-  - fast syntax highlighting<br/>
+- fast syntax highlighting<br/>
   `git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ~/.zsh/zsh-fast-syntax-highlighting/`<br/><br/>
-  - autocomplete<br/>
+- autocomplete<br/>
   `git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git ~/.zsh/zsh-autocomplete/`<br/><br/>
 
 ### Source the .zshrc
-  `source ~/.zshrc`
+
+`source ~/.zshrc`
 
 <hr/>
 
@@ -49,51 +53,42 @@
 - #### a Nerd Font(v3.0 or greater) (Hack Nerd Font)
 - #### lazygit (optional)
 - #### For Telescope
-  -  live grep: ripgrep
-     ###### For Arch
 
-           sudo pacman -S ripgrep
+  - live grep: ripgrep
 
-     ###### For Ubuntu
+    ###### For Arch
 
-           sudo apt-get install ripgrep
+          sudo pacman -S ripgrep
 
   - find files: fd
+
     ##### For Arch
 
           sudo pacman -S fd
 
-    ##### For Ubuntu
-
-           sudo apt-get install fd
-
   - fzf
+
     ##### For Arch
 
           sudo pacman -S fzf
 
-    ##### For Ubuntu
+  - nvm
 
-           sudo apt-get install fzf
+    ##### Install NVM
 
-  -  nvm
-      ##### Install NVM
+           curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
-            curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+    ##### Install Node and NPM
 
-      ##### Install Node and NPM
-
-            nvm install --lts
+           nvm install --lts
 
 <hr/>
 
 ## Tmux
+
 ### Install Tmux
-  #### For Ubuntu
 
-      sudo apt-get install tmux
-
-  #### For Arch
+#### For Arch
 
       sudo pacman -S tmux
 
@@ -105,7 +100,4 @@
 
       tmux source ~/.config/tmux/tmux.conf
 
-
-
 <hr/>
-
