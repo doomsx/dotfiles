@@ -13,6 +13,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+	require("plugins.alpha"),
 	require("plugins.mini"),
 	require("plugins.themes"),
 	require("plugins.neotree"),
