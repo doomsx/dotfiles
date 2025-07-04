@@ -1,22 +1,39 @@
 gui:
-  # Use the mocha catppuccin theme
+  # DRACULA
   theme:
     activeBorderColor:
-      - "#89b4fa"
+      - "#FF79C6"
       - bold
     inactiveBorderColor:
-      - "#a6adc8"
-    optionsTextColor:
-      - "#89b4fa"
-    selectedLineBgColor:
-      - "#313244"
-    cherryPickedCommitBgColor:
-      - "#45475a"
-    cherryPickedCommitFgColor:
-      - "#89b4fa"
-    unstagedChangesColor:
-      - "#f38ba8"
-    defaultFgColor:
-      - "#cdd6f4"
+      - "#BD93F9"
+
     searchingActiveBorderColor:
-      - "#f9e2af"
+      - "#8BE9FD"
+      - bold
+
+    optionsTextColor:
+      - "#6272A4"
+
+    selectedLineBgColor:
+      - "#6272A4"
+
+    inactiveViewSelectedLineBgColor:
+      - bold
+
+    cherryPickedCommitFgColor:
+      - "#6272A4"
+
+    cherryPickedCommitBgColor:
+      - "#8BE9FD"
+
+    markedBaseCommitFgColor:
+      - "#8BE9FD"
+
+    markedBaseCommitBgColor:
+      - "#F1FA8C"
+
+    unstagedChangesColor:
+      - "#FF5555"
+
+    defaultFgColor:
+      - "#F8F8F2"
