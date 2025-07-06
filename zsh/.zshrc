@@ -4,9 +4,11 @@ export DOTNET_ROOT=$HOME/.dotnet
 export BUN_INSTALL="$HOME/.bun"
 export NVM_DIR="$HOME/.nvm"
 
-export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
+export PATH="$HOME/personal/scripts:$PATH"
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 export PATH="$BUN_INSTALL/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
 
 # load tools
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
