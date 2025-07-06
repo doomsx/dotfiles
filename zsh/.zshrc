@@ -27,20 +27,11 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 alias vim="nvim"
-alias nvimconfig="vim ~/.config/nvim/"
-alias dotfiles="cd ~/.dotfiles/"
-alias gb="git branch"
-alias gp="git pull"
-alias gP="git push"
-alias gc="git commit"
-alias ga="git add"
-alias suspend="sudo systemctl suspend"
-alias shutdown="sudo shutdown -h now"
 alias minecraft="java -jar ~/Downloads/SKlauncher-3.2.12.jar"
 alias ls="exa"
 alias c="clear"
-alias update="sudo pacman -Syu --noconfirm"
-alias yupdate="yay -Sua --noconfirm"
+alias stowdot="stow -v -d ~/personal/dotfiles -t ~"
+bindkey -s '^f' 'tmux-sessionizer\n'
 
 # add the ssh agent
 eval `keychain --quiet --eval id_ed25519`
