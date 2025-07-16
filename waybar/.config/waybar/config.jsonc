@@ -6,7 +6,7 @@
     "modules-right": ["custom/updates", "pulseaudio", "battery", "network", "cpu", "memory", "disk", "tray",  ],
 
     "hyprland/workspaces": {
-    "format": "{icon}",
+    "format": "{name}:{icon}",
     "format-icons": {
         "active": "",
         "default": "",
@@ -17,7 +17,7 @@
         }
     },
     "tray": {
-    "icon-size": 21,
+    "icon-size": 20,
     "spacing": 10
     },
     "clock": {
