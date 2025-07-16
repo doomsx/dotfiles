@@ -51,3 +51,5 @@ javac_run() {
 }
 
 fastfetch
+
+export PATH=$PATH:/home/doms/.spicetify
