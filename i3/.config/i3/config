@@ -17,7 +17,7 @@ font pango:Hack Nerd Font 10
 exec --no-startup-id picom
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
-exec_always feh --bg-scale ~/backgrounds/bg2.jpg
+exec_always feh --bg-scale ~/.config/wallpaper/bg2.jpg
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -59,9 +59,9 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return workspace 1; exec --no-startup-id alacritty
+bindsym $mod+Return workspace 1; exec --no-startup-id ghostty
 bindsym F11 workspace 2; exec --no-startup-id chromium
-bindsym F10 workspace 3; exec --no-startup-id firefox
+bindsym $mod+b workspace 3; exec --no-startup-id firefox
 bindsym F9 workspace 4; exec --no-startup-id discord
 
 # start copyQ
