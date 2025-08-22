@@ -9,3 +9,5 @@ background-opacity=0.9
 shell-integration=zsh
 
 keybind = shift+ctrl+r=reload_config
+window-decoration = false
+
