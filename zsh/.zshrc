@@ -30,13 +30,16 @@ source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 alias vim="nvim"
 alias minecraft="java -jar ~/Downloads/SKlauncher-3.2.12.jar"
-alias ls="exa"
+alias ls="eza"
 alias c="clear"
 alias stowdot="stow -v -d ~/personal/dotfiles -t ~"
 bindkey -s '^f' 'tmux-sessionizer\n'
 
-# add the ssh agent
-eval `keychain --quiet --eval id_ed25519`
+# Use GNOME Keyring as SSH agent
+if [ -n "$DESKTOP_SESSION" ]; then
+  eval $(/usr/bin/gnome-keyring-daemon --start --components=ssh)
+  export SSH_AUTH_SOCK
+fi
 
 # java run
 alias jr="javac_run"
